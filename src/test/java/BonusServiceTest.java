@@ -97,6 +97,7 @@ public class BonusServiceTest {
         // производим проверку (сравниваем ожидаемый и фактический):
         assertEquals(expected, actual);
     }
+
     @org.junit.jupiter.api.Test
     void shouldCalculateForRegisteredAndHighBoundary() {
         BonusService service = new BonusService();
@@ -112,6 +113,7 @@ public class BonusServiceTest {
         // производим проверку (сравниваем ожидаемый и фактический):
         assertEquals(expected, actual);
     }
+
     @org.junit.jupiter.api.Test
     void shouldCalculateForRegisteredAndLowBoundary() {
         BonusService service = new BonusService();
